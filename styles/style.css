@@ -34,10 +34,42 @@
     font-weight: 700;
 }
 
+/* Font color
+    txt = text */
+.red-txt{
+    color: #F00;
+}
+.black-txt{
+    color: #070211;
+}
+.white-txt{
+    color: #FFF;
+}
+
 /* header banner section */
 .banner{
     width: 1320px;
     height: 600px;
-    background-image: url('../resources/Banner-Image.png');
-    background-size: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner-Image.png');
+    /* background-image: url('../resources/Banner-Image.png'); */
+    border-radius: 16px;
+}
+.banner h5{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 177px;
+}
+.banner h2{
+    font-size:72px;
+    width: 632px;
+    height: 190px;
+    margin: 16px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+   
 }
