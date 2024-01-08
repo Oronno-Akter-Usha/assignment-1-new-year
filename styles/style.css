@@ -1,4 +1,15 @@
+/* import google font- Merriwather, Inter */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inter', 'Merriweather',  sans-serif;
+}
+/* Font style */
+/* font-family:merriweather;
+    font-weight:;*/
+.fm-400{
+    font-family: 'Merriweather';
+    font-weight: 400;
 }
