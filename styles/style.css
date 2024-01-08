@@ -183,3 +183,45 @@
     border: none;
     margin: 48px auto;
 } 
+
+/* coming-soon-section */
+.coming-soon-section{
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin: 120px auto;
+}
+
+.coming-soon-section p{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
+
+.coming-soon-section-left-text{
+    width: 393px;
+}
+
+.coming-soon-section-left-text h6{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.coming-soon-section h4{
+    font-size: 48px;
+    margin-bottom: 22px;
+
+}
+
+.coming-soon-section-image{
+    border: 15px solid red;
+    border-radius: 463px;
+    padding: 49px;
+    margin: 0 auto;
+
+}
+
+.coming-soon-section-right-text{
+    width: 276px;
+}
