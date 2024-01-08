@@ -55,7 +55,7 @@
 }
 
 .gray-txt {
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(7, 2, 17, 0.60);
 }
 
 /* header banner section */
@@ -126,8 +126,9 @@
 }
 
 .party-section-text p {
-    color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
+    color: rgba(255, 255, 255, 0.80);
+    width: 697px;
+    font-size: 18px;
     line-height: 32px;
     margin-left: 126px;
     margin-top: 24px;
@@ -154,25 +155,28 @@
 }
 
 /* join-section */
-.join-section{
+.join-section {
     width: 1320px;
     height: 482px;
     margin: 0 auto;
     padding-top: 100px;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
-.join-section-text{
+
+.join-section-text {
     width: 549px;
     height: 168px;
     margin: 0 auto;
     text-align: center;
 }
-.join-section-text h5{
+
+.join-section-text h5 {
     font-size: 32px;
     line-height: 56px;
     text-align: center;
 }
-.join-section-join-btn{
+
+.join-section-join-btn {
     padding: 16px 32px;
     color: #FFF;
     background-color: #F00;
@@ -182,46 +186,84 @@
     border-radius: 8px;
     border: none;
     margin: 48px auto;
-} 
+}
 
 /* coming-soon-section */
-.coming-soon-section{
+.coming-soon-section {
     width: 1320px;
     height: 463px;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     margin: 120px auto;
 }
 
-.coming-soon-section p{
+.coming-soon-section p {
     font-size: 20px;
     line-height: 32px;
     margin-bottom: 43px;
 }
 
-.coming-soon-section-left-text{
+.coming-soon-section-left-text {
     width: 393px;
 }
 
-.coming-soon-section-left-text h6{
+.coming-soon-section-left-text h6 {
     font-size: 24px;
     margin-bottom: 16px;
 }
-.coming-soon-section h4{
+
+.coming-soon-section h4 {
     font-size: 48px;
     margin-bottom: 22px;
 
 }
 
-.coming-soon-section-image{
+.coming-soon-section-image {
     border: 15px solid red;
     border-radius: 463px;
     padding: 49px;
     margin: 0 auto;
+}
+
+.coming-soon-section-right-text {
+    width: 276px;
+}
+
+/* portfolio-section */
+.portfolio-section {
+    width: 1330px;
+    margin: 0 auto;
+}
+
+.portfolio-section-text {
+    width: 896px;
+}
+
+.portfolio-section-text h6 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.portfolio-section-text h4 {
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+
+.portfolio-section-text p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.portfolio-section-image-container {
+   
 
 }
 
-.coming-soon-section-right-text{
-    width: 276px;
+.portfolio-section-image-container img {
+    width: 424px;
+    height: 450px;
+    padding: 8px;
+    
 }
