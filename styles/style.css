@@ -256,14 +256,57 @@
     margin-bottom: 48px;
 }
 
-.portfolio-section-image-container {
-   
-
-}
-
 .portfolio-section-image-container img {
     width: 424px;
     height: 450px;
     padding: 8px;
-    
+}
+
+/* subscribe-section */
+.subscribe-section {
+    width: 1330px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.subscribe-section .email-img {
+    margin: 80px auto 40px;
+}
+
+.subscribe-section-text h4 {
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+
+.subscribe-section-text p {
+    width: 896px;
+    margin: 0 auto 48px;
+}
+
+.subscribe-input {
+    width: 648px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.subscribe-input input {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    background: #FFF;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.subscribe-btn{
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: #F00;
+    font-size: 20px;
 }
