@@ -262,6 +262,10 @@
     padding: 8px;
 }
 
+.portfolio-section-image-container img:hover{
+    opacity: 0.5;
+}
+
 /* subscribe-section */
 .subscribe-section {
     width: 1330px;
