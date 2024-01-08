@@ -285,6 +285,7 @@
 .subscribe-section-text p {
     width: 896px;
     margin: 0 auto 48px;
+    line-height: 28px;
 }
 
 .subscribe-input {
