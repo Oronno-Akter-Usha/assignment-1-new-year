@@ -7,9 +7,37 @@
     font-family: 'Inter', 'Merriweather',  sans-serif;
 }
 /* Font style */
-/* font-family:merriweather;
-    font-weight:;*/
+/* fm = font-family: 'Merriweather';*/
 .fm-400{
     font-family: 'Merriweather';
     font-weight: 400;
+}
+.fm-900{
+    font-family: 'Merriweather';
+    font-weight: 900;
+}
+/* fi = font-family: 'Inter';*/
+.fi-400{
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.fi-500{
+    font-family: 'Inter';
+    font-weight: 500;
+}
+.fi-600{
+    font-family: 'Inter';
+    font-weight: 600;
+}
+.fi-700{
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+/* header banner section */
+.banner{
+    width: 1320px;
+    height: 600px;
+    background-image: url('../resources/Banner-Image.png');
+    background-size: 100%;
 }
