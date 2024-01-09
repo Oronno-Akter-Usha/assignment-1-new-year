@@ -230,10 +230,63 @@
     width: 276px;
 }
 
+
+
+/* sale-section */
+.sale-section{
+    width: 1320px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.sale-section-text h6{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.sale-section-text h2{
+    font-size: 72px;
+    margin-bottom: 28px;
+}
+.sale-section-text p{
+    width: 1068px;
+    margin: 0px auto 64px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+.sale-section-image{
+    width: 1320px;
+    height: 663px;
+    position: relative;
+}
+
+.box-img{
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+}
+.girl-img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.discount-img{
+    position: absolute;
+    top: 106px;
+    right: 318px;
+    z-index: 1;
+}
+.red-img{
+    position: absolute;
+    bottom: 0px;    
+}
+
+
 /* portfolio-section */
 .portfolio-section {
     width: 1330px;
-    margin: 0px auto;
+    margin: 120px auto;
 }
 
 .portfolio-section-text {
@@ -265,6 +318,8 @@
 .portfolio-section-image-container img:hover{
     opacity: 0.5;
 }
+
+
 
 /* subscribe-section */
 .subscribe-section {
@@ -317,6 +372,8 @@
     font-size: 20px;
 }
 
+
+
 /* footer-section */
 footer{
     width: 100%;
@@ -366,3 +423,4 @@ footer .copy-right{
     display: flex;
     justify-content: space-around;
 }
+
